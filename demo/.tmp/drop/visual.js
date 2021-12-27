@@ -14150,7 +14150,7 @@ var Visual = /*#__PURE__*/function () {
     this.target = options.element;
     this.updateCount = 1;
     this.updateCount = this.updateCount + 3;
-    jquery__WEBPACK_IMPORTED_MODULE_182___default()(this.target).html('<p>hi there my darling: ' + this.updateCount.toString() + '</p>');
+    jquery__WEBPACK_IMPORTED_MODULE_182___default()(this.target).html('<p>hi there avihou and maya: ' + this.updateCount.toString() + '</p>');
   }
 
   _createClass(Visual, [{
@@ -14158,7 +14158,7 @@ var Visual = /*#__PURE__*/function () {
     value: function update(options) {
       console.log('Visual update', options);
       this.updateCount = this.updateCount + 1;
-      this.target.innerHTML = '<p>hi there my darling: ' + this.updateCount.toString() + '</p>';
+      this.target.innerHTML = '<p>hi there avihou and maya: ' + this.updateCount.toString() + '</p>';
     }
   }]);
 
@@ -14172,7 +14172,7 @@ var Visual = /*#__PURE__*/function () {
 
 /* module decorator */ module = __webpack_require__.nmd(module);
 /* provided dependency */ var window = __webpack_require__(6738);
-/* provided dependency */ var define = __webpack_require__(544);
+/* provided dependency */ var define = __webpack_require__(6544);
 function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
 
 /*!
@@ -23647,7 +23647,7 @@ module.exports = Function('return this')();
 
 /***/ }),
 
-/***/ 544:
+/***/ 6544:
 /***/ ((module) => {
 
 "use strict";

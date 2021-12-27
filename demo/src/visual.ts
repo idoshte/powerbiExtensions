@@ -26,13 +26,13 @@ export class Visual implements IVisual {
         this.target = options.element;
         this.updateCount = 1;
             this.updateCount= this.updateCount+3;
-            $(this.target).html('<p>hi there my darling: '+ this.updateCount.toString()+'</p>')
+            $(this.target).html('<p>hi there avihou and maya: '+ this.updateCount.toString()+'</p>')
     }
 
     public update(options: VisualUpdateOptions) {
         console.log('Visual update', options);
         this.updateCount= this.updateCount+1;
-        this.target.innerHTML='<p>hi there my darling: '+ this.updateCount.toString()+'</p>'
+        this.target.innerHTML='<p>hi there avihou and maya: '+ this.updateCount.toString()+'</p>'
         
         
     }
